@@ -1,5 +1,5 @@
 includes:
-
+  - ./vendor/nunomaduro/larastan/extension.neon
 parameters:
 
     paths:
@@ -12,8 +12,11 @@ parameters:
     #    - '#Unsafe usage of new static#'
 
     excludePaths:
-        - ./*/*/Tests/*.php
+        - ./*/*/tests/*.php
         - ./*/*/factories/*.php
-        - ./*/*/Migrations/*.php
+        - ./*/*/migrations/*.php
+
+    databaseMigrationsPath:
+        - ./database/migrations
 
     checkMissingIterableValueType: false
