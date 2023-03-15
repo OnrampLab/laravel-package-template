@@ -1,8 +1,9 @@
 <?php
 
-namespace OnrampLab\LaravelPackageTemplate\Tests;
+namespace Onramplab\LaravelPackageTemplate\Tests;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use OnrampLab\LaravelPackageTemplate\LaravelPackageTemplateServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 class TestCase extends OrchestraTestCase
@@ -21,5 +22,16 @@ class TestCase extends OrchestraTestCase
             'database' => ':memory:',
             'prefix' => '',
         ]);
+    }
+
+    /**
+     * @param \Illuminate\Foundation\Application $app
+     * @return array
+     */
+    protected function getPackageProviders($app)
+    {
+        return [
+            LaravelPackageTemplateServiceProvider::class,
+        ];
     }
 }
