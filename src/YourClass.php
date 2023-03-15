@@ -1,6 +1,6 @@
 <?php
 
-namespace Onramplab\ComposerPackageTemplate;
+namespace Onramplab\LaravelPackageTemplate;
 
 /**
  * A sample class
@@ -10,7 +10,7 @@ namespace Onramplab\ComposerPackageTemplate;
  *
  * @author Onramplab
  *
- * @package Onramplab\ComposerPackageTemplate
+ * @package Onramplab\LaravelPackageTemplate
  */
 class YourClass
 {

@@ -1,17 +1,17 @@
 {
-    "name": "onramplab/composer-package-template",
-    "description": "An composer template",
+    "name": "onramplab/laravel-package-template",
+    "description": "An laravel template",
     "type": "library",
     "license": "MIT",
     "keywords": [
         "template",
-        "composer",
+        "laravel",
         "package",
         "skeleton",
         "boilerplate",
-        "composer template",
+        "laravel template",
         "package template",
-        "composer package template"
+        "laravel package template"
     ],
     "authors": [
         {
@@ -38,7 +38,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Onramplab\\ComposerPackageTemplate\\": "src/"
+            "Onramplab\\LaravelPackageTemplate\\": "src/"
         }
     },
     "extra": {
