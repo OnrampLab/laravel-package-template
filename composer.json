@@ -40,7 +40,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Onramplab\\LaravelPackageTemplate\\": "src/"
+            "OnrampLab\\LaravelPackageTemplate\\": "src/"
         }
     },
     "autoload-dev": {
