@@ -8,7 +8,7 @@ If you are trying to create a new PHP Laravel package, whether it is going to be
 
 ## Requirements
 
-- PHP >= 7.4;
+- PHP >= 8.0;
 - composer.
 
 ## Features
