@@ -1,6 +1,6 @@
 <?php
 
-namespace Onramplab\LaravelPackageTemplate\Tests;
+namespace OnrampLab\LaravelPackageTemplate\Tests;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use OnrampLab\LaravelPackageTemplate\LaravelPackageTemplateServiceProvider;

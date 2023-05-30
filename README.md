@@ -76,7 +76,7 @@ Please refer to original [article](http://www.darwinbiler.com/creating-composer-
 
 ## Changelog
 
-To keep track, please refer to [CHANGELOG.md](https://github.com/Onramplab/laravel-package-template/blob/master/CHANGELOG.md).
+To keep track, please refer to [CHANGELOG.md](https://github.com/onramplab/laravel-package-template/blob/master/CHANGELOG.md).
 
 ## Contributing
 
@@ -88,8 +88,8 @@ To keep track, please refer to [CHANGELOG.md](https://github.com/Onramplab/larav
 6. Push to the branch (git push origin my-new-feature).
 7. Create new pull request.
 
-Also please refer to [CONTRIBUTION.md](https://github.com/Onramplab/laravel-package-template/blob/master/CONTRIBUTION.md).
+Also please refer to [CONTRIBUTION.md](https://github.com/onramplab/laravel-package-template/blob/master/CONTRIBUTION.md).
 
 ## License
 
-Please refer to [LICENSE](https://github.com/Onramplab/laravel-package-template/blob/master/LICENSE).
+Please refer to [LICENSE](https://github.com/onramplab/laravel-package-template/blob/master/LICENSE).
