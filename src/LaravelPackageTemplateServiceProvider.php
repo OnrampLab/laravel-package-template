@@ -11,7 +11,7 @@ class LaravelPackageTemplateServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->mergeConfigFrom(__DIR__ . '', '');
+        // $this->mergeConfigFrom(__DIR__ . '/../config/package_template.php', 'package_template');
     }
 
     /**
@@ -19,10 +19,12 @@ class LaravelPackageTemplateServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
+        $this->publishes([
+            __DIR__.'/../database/migrations/' => database_path('migrations'),
+        ], 'package-template-migrations');
 
         $this->publishes([
-            __DIR__ . '' => config_path(''),
-        ], '');
+            __DIR__ . '/../config/package_template.php' => config_path('package_template.php'),
+        ], 'package-template-config');
     }
 }
