@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) Onramplab<mailto:kos.huang@onramplab.com>
+Copyright (c) Onramp Lab <kos.huang@onramplab.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -61,8 +61,10 @@ return [
     ],
 
     'remove' => [
-        SlevomatCodingStandard\Sniffs\TypeHints\DeclareStrictTypesSniff::class,
         NunoMaduro\PhpInsights\Domain\Insights\ForbiddenNormalClasses::class,
+        NunoMaduro\PhpInsights\Domain\Insights\ForbiddenTraits::class,
+        SlevomatCodingStandard\Sniffs\Classes\SuperfluousExceptionNamingSniff::class,
+        SlevomatCodingStandard\Sniffs\TypeHints\DeclareStrictTypesSniff::class,
         SlevomatCodingStandard\Sniffs\TypeHints\DisallowMixedTypeHintSniff::class,
     ],
 
@@ -89,8 +91,7 @@ return [
         'min-quality' => 80,
         'min-complexity' => 80,
         'min-architecture' => 80,
-        'min-style' => 100,
-//        'disable-security-check' => false,
+        'min-style' => 90,
     ],
 
     /*
